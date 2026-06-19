@@ -1,6 +1,6 @@
 namespace RestaurantOrdering.Api.DTOs;
 
-public class CategoryResponse
+public class CategoryResponseDto
 {
     public int Id { get; set; }
     public string Name { get; set; } =  string.Empty;
